@@ -1,0 +1,680 @@
+*{
+    margin:0;
+}
+body{
+    background: #191919;
+    color:white;
+    font-weight: 400;
+    font-family: 'DM Sans';
+}
+
+.container{
+    max-width: 80%;
+    margin: auto;
+}
+.burger{
+    display: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+    align-items: center;
+}
+
+nav{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+}
+
+nav a:hover{
+    color: #118DA8;
+}
+
+.first-screen{
+    height: 900px;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.first-screen-image{
+    width: 40%;
+    height: 100%;
+    position: relative;
+}
+.image-addition{
+    position: absolute;
+    left:-15px;
+    top:-15px;
+}
+
+.first-screen-info{
+    width: 50%;
+}
+.first-screen-info h1{
+    font-size: calc(50px + 50 * (100vw / 1920));
+    letter-spacing: 3px;
+   margin-bottom: 75px;
+    display: block;
+    font-weight: 300;
+}
+
+.first-screen-image img:first-child{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.first-screen-info b:first-child{
+    border-bottom: 10px solid transparent; 
+    background-image: url('images/underscore.png'); 
+    background-repeat: no-repeat; 
+    background-position: bottom; 
+    background-size: contain; 
+    font-weight: 400;
+}
+
+
+.first-screen-networks p{
+    font-family: DM Sans;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.first-screen-networks {
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+.network-block,.network-footer-block{
+    display: flex;
+    width: 245px;
+    height: 35px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-screen-networks img{
+    height: 100%;
+}
+
+.second-screen{
+    width: 100%;
+    padding: 90px 0 160px 0;
+}
+
+.second-screen-title-block {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.second-screen-title-block h1{
+    font-family: 'DM Sans';
+    font-size: 64px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.btn{
+    font-size: 17px;
+    font-weight: 400;
+    padding:15px 20px;
+    background: #118DA8;
+    color: white;
+    border:0;
+    border-radius: 6px;
+}
+
+.card{
+    background-color: black;
+    width: 95%;
+    height: 470px;
+    margin-top: 90px;
+    padding: 40px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-info {
+    width: 70%;
+    height: 100%;
+}
+
+.tag{  
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #191919;
+    border-radius: 10px;
+    padding: 0 15px;
+    display: inline;
+}
+
+.card-info-text h4 {  
+    font-size: 17px;
+    font-weight: 400;
+    color: #118DA8;
+}
+
+.card-info-text{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: baseline;
+    height: 80%;
+}
+.card-info-text h2 {
+    font-size: calc(35px + 40 * (100vw / 1920));
+    font-weight: 300;
+    letter-spacing: 3px;
+    line-height: 70.4px;
+    width: 100%;
+}
+
+.card-info-text p {
+    font-size: calc(15px + 10 * (100vw / 1920));
+    font-weight: 400;
+    opacity: 70%;
+}
+
+.card-image {
+    border-radius: 20px;
+    width: 25%;
+    height: 90%;
+}
+
+.third-screen{
+    height: 740px;
+    padding: 150px 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circle-button   {
+    width: 150px;
+    height: 150px;
+    background: #118DA8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    border-radius: 1000px;
+    margin-bottom: 30px;
+}
+
+
+.third-screen-info {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    gap: 60px;
+}
+
+.third-screen h1{
+    font-size:  calc(40px + 40 * (100vw / 1920));
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.third-screen p {
+    font-size:calc(15px + 10 * (100vw / 1920));
+    font-weight: 400;
+    opacity: 70%;
+}
+
+.third-screen-info h4{
+    color: #118DA8;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.third-screen-image{
+    width: 50%;
+}
+
+.fourth-screen{
+    padding: 100px 0;
+}
+
+form {
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 280px;
+    padding: 60px 0 ;
+    border-radius: 32px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+form img{
+    position: absolute;
+    bottom:-45px;
+    left:-45px;
+
+}
+
+form p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #118DA8;
+}
+
+form h1 {
+    font-size: calc(45px + 40 * (100vw / 1920));    
+    font-weight: 300;
+    line-height: 90px;
+    letter-spacing: 3px;
+}
+.form-text {
+    width: 30%;
+    height: 100%;
+}
+.inputs{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    align-items: baseline;
+}
+
+input{
+    width: 100%;
+    height: 30%;
+    color:white;
+    padding-left: 10px;
+    background: #191919;
+    border-radius: 6px ;
+    font-size: 15px;
+    border: 1px;
+}
+
+.reviewes{
+    padding: 100px 0;
+    height: 700px;
+}
+.review-row{
+    width: 100%;
+    height: 320px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.review{
+    background-color: black;
+    width: 32%;
+    border-radius: 32px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-container{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.review-container h2 {    
+    font-size: calc(30px + 5 * (100vw / 1920));;
+    font-weight: 400;
+}
+
+footer{
+    padding: 100px 0;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-network{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.logo-block{
+    width: 10%;
+}
+.footer-text{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    font-size:calc(15px + 10 * (100vw / 1920));
+    font-weight: 400;
+}
+
+@media (max-width: 1440px){
+    .first-screen {
+        height: 800px;
+    }
+    .third-screen-info {
+        gap: 40px;
+    }
+    .form-text h1{
+        font-size: 70px;
+    }
+    .form-text{
+        width: 40%;
+    }
+    .review-container h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:1024px){
+    .first-screen{
+        height: 600px;
+    }
+    .first-screen-info h1 {
+        font-size: 55px;
+        margin-bottom: 60px;
+    }
+    .second-screen-title-block h1 {
+        font-size: 50px;
+    }
+    .card-info-text h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .card-info-text p{
+        font-size: 15px;
+    }
+    .card-info {
+        width: 60%;
+    }
+    .card-image {
+        width: 35%;
+        object-fit: cover;
+    }
+    .card {
+        height: 400px;
+        margin-top: 60px;
+    }
+    .third-screen-image {
+        height: 70%;
+        object-fit: cover;
+        object-position: left;
+
+    }
+    .circle-button {
+        width: 100px;
+        height: 100px;
+    }
+    .third-screen-info{
+        gap:20px;
+    }
+    .third-screen h1 {
+        font-size: 40px;
+    }
+    .third-screen p {
+        font-size: 15px;
+    }
+    .third-screen {
+        padding: 70px 0;
+        height: 600px;
+    }
+    .second-screen{
+        padding: 70px 0 0 0;
+    }
+    .fourth-screen{
+        padding: 0;
+    }
+    .form-text h1 {
+        font-size: 45px;
+        line-height: 70px;
+        margin-top: 40px;   
+    }
+    .review-container h2 {
+        font-size: 20px;
+    }
+    .network-footer-block {
+        flex-direction: column;
+        width: auto;
+        gap:20px;
+    }
+    footer .logo {
+        width: 100px;
+    }
+    .footer-network {
+        width: 30px;
+        flex-direction: column;
+        gap:20px;
+
+    }
+    .first-screen-image {
+        z-index: 0;
+    }
+    header {
+        align-items: start;
+    }
+    .footer-network img {
+        width: 100%;
+        align-items: center;
+    }
+}
+
+@media (max-width:768px){
+    .logo-block {
+        width: auto;
+    }
+    nav{
+        height: 0;
+        opacity: 0;
+        width: 0;
+        position: absolute;
+        right: 5%;
+        border:0;
+        flex-direction: column;
+        gap:0px;
+        background-color: #118DA8;
+        padding: 20px 0;
+        margin-top: 30px;
+        z-index: 10;
+        transition-duration: 300ms;
+    }
+    .burger{
+        display: flex;
+        width: 50px;
+        height:30px;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .burger-line{
+        width: 100%;
+        height: 10%;
+        background-color: white;
+        
+    }
+
+    .burger.out {
+        position: relative;
+    }
+    nav.active{
+        position: absolute;
+        display: flex;
+        width: 90%;
+        height: 200px;
+        border-radius: 30px;
+        opacity: 1;
+        padding: 30px 0;
+        background-color: #000000;
+    }
+    nav a{
+        display: block;
+        padding: 10px 0;
+        border-bottom:3px white solid;
+        width: 80%;
+        text-align: center  ;
+    }
+    .logo {
+        width: 100px;
+    }
+
+    .first-screen {
+        flex-direction: column;
+        height: 90vh;
+        justify-content: start;
+        gap:30px;
+    }
+
+    .first-screen-image {
+        width: 100%;
+        height: 50vh;
+    }
+    .first-screen-info {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .second-screen-title-block h1{
+        font-size: 30px;
+    }
+    .first-screen-info h1{
+        margin-bottom: 25px;
+        font-size: 50px;
+    }
+    .card {
+        flex-direction: column;
+        height: 600px;
+        margin-top: 40px;
+        width: 85%;
+    }
+    .card-image {
+        width: 100%;
+        height: 40%;
+    }
+    .card-info {
+        margin-top: 40px;
+        width: 100%;
+    }
+    .card-info-text {
+        margin-top: 20px;
+    }
+    .third-screen {
+        flex-direction: column;
+        height: 90vh;
+        
+    }
+    .third-screen-image {
+        width: 100%;
+        height: 50%;
+        object-position: top;
+    }
+    .third-screen-info {
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+    }
+    .fourth-screen {
+        height: 300px;
+
+    }
+    form {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+    .form-text {
+        width: 100%;
+        text-align: center;
+        height: auto;
+    }
+    .form-text h1 {
+        margin-top: 0px;
+        font-size: 30px;
+    }
+    form img {
+        width: 50px;
+        bottom: -15px;
+        left:-15px;
+    }
+    .inputs{
+        height: 60%;
+        width: 90%;
+        gap:20px;
+
+    }
+    .review-row {
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        gap:30px;
+    }
+    .reviewes{
+        margin-top: 80px;
+        height: auto;
+        padding: 0;
+    }
+    .review {
+        width: 100%;
+
+    }
+    footer {
+        flex-wrap: wrap;
+        height: auto;
+        align-content: center;
+    }
+    .logo-block{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .footer-text{
+        width: 50%;
+    }
+    .footer-text span{
+       text-align: right;
+    }
+
+}
+
+@media (max-width:480px){
+    header {
+        margin-top: 30px;
+    }
+    .first-screen-info h1{
+        font-size: 40px;
+    }
+    .btn {
+        padding: 15px;
+        font-size: 15px;
+    }
+    .second-screen-title-block h1 {
+        font-size: 25px;
+    }
+    .card-info-text h2{
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
