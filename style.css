@@ -491,7 +491,7 @@ footer{
         opacity: 0;
         width: 0;
         position: absolute;
-        right: 5%;
+        right: 10%;
         border:0;
         flex-direction: column;
         gap:0px;
@@ -521,7 +521,7 @@ footer{
     nav.active{
         position: absolute;
         display: flex;
-        width: 90%;
+        width: 75%;
         height: 200px;
         border-radius: 30px;
         opacity: 1;
@@ -533,7 +533,7 @@ footer{
         padding: 10px 0;
         border-bottom:3px white solid;
         width: 80%;
-        text-align: center  ;
+        text-align: center;
     }
     .logo {
         width: 100px;
