@@ -443,7 +443,7 @@ footer{
         height: 600px;
     }
     .second-screen{
-        padding: 70px 0 0 0;
+        padding: 100px 0 0 0;
     }
     .fourth-screen{
         padding: 0;
@@ -701,11 +701,23 @@ footer{
     .card {
         padding: 30px;
         width: 80%;
+        height: 90vh;
     }
+    .card-info-text p{
+        font-size: 12px;
+    }
+
+    
     .card-info-text h2{
         font-size: 18px;
     }
+    .card-info-text h4{
+        font-size: 15px;
+    }
     .form-text h1 {
         font-size: 25px;
+    }
+    .tag {
+        font-size: 15px;
     }
 }
