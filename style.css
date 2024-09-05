@@ -697,8 +697,15 @@ footer{
     form img {
         left:5px
     }
+
     .card {
         padding: 30px;
         width: 80%;
+    }
+    .card-info-text h2{
+        font-size: 18px;
+    }
+    .form-text h1 {
+        font-size: 25px;
     }
 }
