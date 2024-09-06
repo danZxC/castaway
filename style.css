@@ -718,6 +718,7 @@ footer{
     }
     .form-text h1 {
         font-size: 25px;
+        line-height: 30px;
     }
     .tag {
         font-size: 15px;

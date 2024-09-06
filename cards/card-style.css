@@ -520,8 +520,8 @@ footer{
         left:5px
     }
 
-   
     .form-text h1 {
+        line-height: 30px;
         font-size: 25px;
     }
     .tag {
