@@ -6,5 +6,4 @@ burger.addEventListener('click',()=>{
     menu.classList.toggle('active')
 })
 
-// burger.classList.toggle('out')
-// menu.classList.toggle('active')
+
